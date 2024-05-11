@@ -8,8 +8,8 @@ function page() {
       <Image
         src="/group.png"
         alt="stars"
-        width={120}
-        height={18}
+        width={110}
+        height={15}
         className={styles.img}
       />
       <div className={styles.group}>
