@@ -6,7 +6,7 @@ function page() {
   return (
     <div className={styles.cardContainer}>
       <Image
-        src="/public/Group.png"
+        src="../../../../public/groupstars.png"
         alt="stars"
         width={110}
         height={15}
