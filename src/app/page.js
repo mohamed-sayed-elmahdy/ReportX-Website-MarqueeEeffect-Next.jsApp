@@ -21,7 +21,7 @@ export default function Home() {
         <div className={`${styles.reviewsContainer} flex`}>
           <span>4.6</span>
           <Image
-            src="/Group 3.png"
+            src="/groupstars.png"
             alt="stars"
             width={110}
             height={20}
