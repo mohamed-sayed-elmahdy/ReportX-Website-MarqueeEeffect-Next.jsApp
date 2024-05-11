@@ -80,13 +80,11 @@
   font-size: 45px;
   text-align: center;
   color: #0d0e10;
-  margin-bottom: 1rem;
 }
 
 .animationContainer {
   width: 80%;
   overflow: hidden;
-  margin-top: 3rem;
   margin-bottom: 19rem;
   border-radius: 25px;
 }
