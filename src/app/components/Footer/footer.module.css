@@ -1,0 +1,39 @@
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  width: 90%;
+  margin: 1.5rem auto;
+}
+.footer .footerParagraph {
+  width: 55%;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+.footer .links {
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+font-weight: 700;
+font-size: 15px;
+line-height: 16px;
+text-align: center;
+color: #000000;
+}
+
+@media only screen and (max-width: 855.98px) {
+    .footer .footerParagraph {
+        width: 100%;
+      }
+      .footer .links {
+        gap: 1rem;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 1.1rem;
+    }
+}

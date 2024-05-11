@@ -1,0 +1,52 @@
+.cardContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 409px;
+  background: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  border-radius: 25px;
+  margin: 0.5rem;
+  padding: 20px;
+}
+.cardContainer .group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #777777;
+}
+.cardContainer .minireview {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #0d0e10;
+}
+.cardContainer .review {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+
+  color: #000000;
+}
+.cardContainer .nameAndContry {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.3rem;
+}
+.cardContainer .nameAndContry .name {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #0d0e10;
+}

@@ -1,95 +1,118 @@
+import React from "react";
+import { Marquee } from "@devnomic/marquee";
+import "@devnomic/marquee/dist/index.css";
 import Image from "next/image";
 import styles from "./page.module.css";
+import ReviewCard from "./components/ReviewCard/page";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
+    <div>
+      <div className={styles.homeSection}>
+        <div className={styles.imgContainer}>
+          <Image
+            src="/instagram.png"
+            alt="logo"
+            width={1000}
+            height={1200}
+            className={styles.img}
+          />
+        </div>
+        <div className={`${styles.reviewsContainer} flex`}>
+          <span>4.6</span>
+          <Image
+            src="/group.png"
+            alt="stars"
+            width={110}
+            height={20}
+            className={styles.img}
+          />
+          <span>30.8K+ Reviews</span>
+        </div>
+        <div className={`${styles.logoContainer} flex`}>
+          <div className={styles.logoimgContainer}>
+            <span>Reports</span>
+          </div>
+          <div className={styles.logoimgContainer}>
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+              src="/Group 3.png"
+              alt="logo"
+              width={105}
+              height={70}
+              className={styles.logo}
             />
-          </a>
+          </div>
+        </div>
+        <p className={styles.briefAboutapp}>
+          Our most powerful Instagram analytics tool offers 30+ useful features,
+          including Instagram Story Viewer, Instagram Downloader, Instagram
+          Video Downloader, Instagram Story Downloader, Enlarge photo, and
+          Instagram Photo Downloader.
+        </p>
+        <p className={styles.featurespara}>
+ <span>• Designed for large Instagram accounts</span>   <span>• Super fast loading time</span>   <span>• Safe to use</span></p>
+        <div className={styles.storeImgs}>
+          <div className={styles.appStoreimgContainer}>
+            <Image
+              src="/google.png"
+              alt="logo"
+              width={640}
+              height={400}
+              className={styles.img}
+            />
+          </div>
+          <div className={styles.appStoreimgContainer}>
+            <Image
+              src="/apple.png"
+              alt="logo"
+              width={640}
+              height={400}
+              className={styles.img}
+            />
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className={styles.reviewsCardsSection}>
+        <h2 className={styles.title}>What people are saying ?</h2>
+        <div className={styles.animationContainer}>
+          <Marquee
+            fade={true}
+            direction="left"
+            pauseOnHover={true}
+            className={`${styles.marquee} `}
+          >
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+          </Marquee>
+          <Marquee
+            fade={true}
+            reverse={true}
+            pauseOnHover={true}
+            className={`${styles.marquee} `}
+          >
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+          </Marquee>
+          <Marquee
+            fade={true}
+            direction="left"
+            pauseOnHover={true}
+            className={`${styles.marquee} `}
+          >
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+            <ReviewCard />
+          </Marquee>
+        </div>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
