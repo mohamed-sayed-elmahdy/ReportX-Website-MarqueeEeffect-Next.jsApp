@@ -37,17 +37,6 @@
   transform: translateY(-2px);
 }
 
-/* .navContainer .links .link:hover::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-image: linear-gradient(90.02deg, #00e5d1 -27.56%, #2577f9 43.56%);
-  z-index: -1;
-} */
-
 .navContainer .links .menu {
   position: relative;
   justify-content: center;
