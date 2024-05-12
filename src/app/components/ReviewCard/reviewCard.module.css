@@ -19,8 +19,7 @@
   gap: 1rem;
   font-weight: 700;
   font-size: 12px;
-  line-height: 24px;
-  text-align: center;
+    text-align: center;
   color: #777777;
 }
 .cardContainer .minireview {
@@ -38,7 +37,6 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 0.2rem;
 }
 .cardContainer .nameAndContry .name {
   font-weight: 700;
