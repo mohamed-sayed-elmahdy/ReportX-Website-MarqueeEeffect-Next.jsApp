@@ -50,7 +50,9 @@ export default function Home() {
           Instagram Photo Downloader.
         </p>
         <p className={styles.featurespara}>
- <span>• Designed for large Instagram accounts</span>   <span>• Super fast loading time</span>   <span>• Safe to use</span></p>
+          <span>• Designed for large Instagram accounts</span>{" "}
+          <span>• Super fast loading time</span> <span>• Safe to use</span>
+        </p>
         <div className={styles.storeImgs}>
           <div className={styles.appStoreimgContainer}>
             <Image
