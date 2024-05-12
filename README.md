@@ -1,3 +1,26 @@
+Welcome to our Next.js Instagram Analytics Landing Page! This sleek and modern page serves as the gateway to our powerful Instagram analytics tool. Designed with simplicity and elegance in mind, our landing page provides a glimpse into the features and benefits of our analytics tool, enticing visitors to learn more and explore further.
+
+Key Highlights:
+
+Visually Stunning Design: Our landing page features captivating imagery and stylish layouts, creating an immersive experience for visitors from the moment they arrive.
+
+Feature Showcase: Discover the key features and functionalities of our Instagram analytics tool, highlighted in a concise and engaging manner. From comprehensive analytics to optimized performance, we showcase what sets our tool apart.
+
+User-Focused Content: Informative yet concise descriptions guide visitors through the benefits of our tool, addressing the needs of social media influencers, marketers, and avid Instagram users alike.
+
+How to Use:
+
+Clone the repository to your local machine.
+Install dependencies using npm install.
+Run the development server using npm run dev.
+Access the app through your browser at http://localhost:3000.
+
+Live Version : https://report-x-website-next-js-app.vercel.app/
+
+Screenshots:
+![Next.js-Instagram-Analytics-Landing-Page!](https://raw.githubusercontent.com/mohamed-sayed-elmahdy/ReportX-Website-MarqueeEeffect-Next.jsApp/master/public/ScreenShot.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
