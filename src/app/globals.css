@@ -25,10 +25,8 @@ body {
 }
 body {
   color: rgb(var(--foreground-rgb));
-  background: url("../../public/background.jpg")
-  , rgba(255, 255, 255, 0.185);
+  background: url("../../public/background.jpg"), rgba(255, 255, 255, 0.185);
   background-size: cover;
-  backdrop-filter: blur(120px);
   height: 100vh;
 }
 a {
