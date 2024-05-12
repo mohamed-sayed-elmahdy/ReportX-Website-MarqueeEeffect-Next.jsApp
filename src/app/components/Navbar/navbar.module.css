@@ -10,8 +10,9 @@
   color: black;
   z-index: 3000;
   padding: 0.7rem 0;
-  background: white;
+  background: rgba(255, 255, 255, 0.104);
   margin-bottom: 8rem;
+  color: white;
 }
 .navContainer .logocontainer {
   font-size: 35px;

@@ -50,7 +50,9 @@ export default function Home() {
           Instagram Photo Downloader.
         </p>
         <p className={styles.featurespara}>
- <span>• Designed for large Instagram accounts</span>   <span>• Super fast loading time</span>   <span>• Safe to use</span></p>
+          <span>• Designed for large Instagram accounts</span>{" "}
+          <span>• Super fast loading time</span> <span>• Safe to use</span>
+        </p>
         <div className={styles.storeImgs}>
           <div className={styles.appStoreimgContainer}>
             <Image
@@ -76,7 +78,6 @@ export default function Home() {
         <h2 className={styles.title}>What people are saying ?</h2>
         <div className={styles.animationContainer}>
           <Marquee
-            fade={true}
             direction="left"
             pauseOnHover={true}
             className={`${styles.marquee} `}
@@ -88,7 +89,6 @@ export default function Home() {
             <ReviewCard />
           </Marquee>
           <Marquee
-            fade={true}
             reverse={true}
             pauseOnHover={true}
             className={`${styles.marquee} `}
